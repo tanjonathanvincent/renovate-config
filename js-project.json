@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "github>tanjonathanvincent/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "minor",
+        "patch",
+        "lockFileMaintenance"
+      ],
+      "automerge": true
+    }
+  ],
+  "requiredStatusChecks": null
+}

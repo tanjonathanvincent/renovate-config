@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "timezone": "Asia/Manila",
+  "extends": [
+    "schedule:nonOfficeHours"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
