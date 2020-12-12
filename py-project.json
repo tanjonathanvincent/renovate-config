@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "github>tanjonathanvincent/renovate-config"
+  ],
   "python": {
     "enabled": true
   },
