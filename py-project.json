@@ -1,0 +1,11 @@
+{
+  "python": {
+    "enabled": true
+  },
+  "pip_requirements": {
+    "fileMatch": [
+      "dev-requirements.txt",
+      "\.requirements$"
+    ]
+  }
+}
