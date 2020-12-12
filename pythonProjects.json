@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "github>tanjonathanvincent/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "major"
+      ],
+      "labels": [
+        ":warning: Update: Major Version",
+        "Python Package"
+      ],
+      "prBodyNotes": [
+        ":warning: This is a major version released and may include breaking changes. Please review and check the logs carefully before merging this PR."
+      ]
+    },
+    {
+      "updateTypes": [
+        "minor"
+      ],
+      "labels": [
+        ":arrow_up: Update: Minor Version",
+        "Python Package"
+      ]
+    },
+    {
+      "updateTypes": [
+        "patch"
+      ],
+      "labels": [
+        ":adhesive_bandage: Update: Patch",
+        "Python Package"
+      ],
+      "automerge": true
+    }
+  ]
+}
