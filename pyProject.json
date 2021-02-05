@@ -9,10 +9,10 @@
       ],
       "labels": [
         ":warning: Update: Major Version",
-        "Python Package"
+        "Pip"
       ],
       "prBodyNotes": [
-        ":warning: This is a major version released and may include breaking changes. Please review and check the logs carefully before merging this PR."
+        ":warning: This is a major version and may include breaking changes. Thread carefully before merging this PR."
       ]
     },
     {
@@ -21,7 +21,7 @@
       ],
       "labels": [
         ":arrow_up: Update: Minor Version",
-        "Python Package"
+        "Pip"
       ]
     },
     {
@@ -30,7 +30,7 @@
       ],
       "labels": [
         ":adhesive_bandage: Update: Patch",
-        "Python Package"
+        "Pip"
       ],
       "automerge": true
     }
