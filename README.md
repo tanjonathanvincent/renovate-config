@@ -1,6 +1,10 @@
 # renovate-config
 
-Sharable [Renovate](https://github.com/apps/renovate) config across my repository
+Renovate configuration for my projects
+
+[What is Renovate?](https://www.whitesourcesoftware.com/free-developer-tools/renovate/)
+
+[Renovate docs](https://docs.renovatebot.com/)
 
 ## LICENSE
 
